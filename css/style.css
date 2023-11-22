@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --letras-header: #ffff;
+    --amarelo: rgb(254,209,54);
+    --cor-paragrafos: #808080;
+
+}
+
+body {
+    background-image: ;
+}
+
+.logo{
+    width: 50%;
+
+}
+
+header {
+    background-image: url(/cp3-html-master/images/bg-header.jpg);
+    color: var(--letras-header);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: auto;
+    
+}
+.header{
+    padding-top: 12px;
+    padding-bottom: 10px;   
+    display: flex;
+    justify-content: space-evenly;
+}
+ 
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+ 
+.alinhar {
+    display: flex;
+    justify-content: space-between;
+
+}
+ 
+.menu {
+    width: 350px;
+    text-align: right;
+    justify-content: center;
+    padding: auto;
+    font-family: ;
+}
+ 
+.menu-opcoes {
+    display: inline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    justify-content: space-around;
+}
+
+.textoheader {
+    text-align: center;
+    padding: 50px;
+    font-family:  'Open Sans', sans-serif;
+    font-size: 35px;
+}
+
+.botaoheader {
+    border-radius: 5px;
+    background-color: var(--amarelo) ;
+    width: 15%;
+    padding: 20px;
+    color: var(--letras-header);
+    border: transparent 
+}
+
+section {
+    text-align: center;
+
+}
+
+.titulosection {
+    color: var(--amarelo);
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 30px;
+}
+
+.paragrafosection {
+    color:var(--cor-paragrafos);
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#firstopic {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.blockimages {
+    font-family: 'Open Sans', sans-serif ;
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    margin: 16px;
+}
+
+.midbutton {
+    font-family: 'Open Sans' sans serif;
+    background-color: var(--amarelo);
+    border-radius: 5px;
+    height: 35px;
+    width: 12%;
+    color: white;  
+    border: 0px
+}
+
+.personimg {
+    border: 5px solid white;
+    border-radius: 50%;
+    height: 20vh;
+}
+
+.textimg {
+    display: flex;
+    justify-content: center;
+}
+
+.simbols {
+    display: inline;
+    padding: 16px;
+}
+
+.footer {
+    background-image: url(/cp3-html-master/images/bg-footer.jpg);
+    color: white;
+    background-size: cover;
+    padding: auto;
+}
+
+.forms {
+    display: flex;
+    justify-content:space-evenly; 
+}
+
+.styleinput {
+    border-radius: 10px;
+}
+
+input {
+    display: block;
+    margin-bottom: 0.2em;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 0.2em;   
+}
+
+select {
+    display: block;
+    margin-bottom: 0.2em;
+}
+
+.lastbutton {
+    background-color: var(--amarelo);
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    width: 10em;
+    height: 30px; 
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+
+}
