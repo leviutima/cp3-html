@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background-image: url(/cp3-html-master/images/bg-header.jpg);
+    background-image: url(/images/bg-header.jpg);
     color: var(--letras-header);
     background-repeat: no-repeat;
     background-size: cover;
@@ -135,7 +135,7 @@ section {
 }
 
 .footer {
-    background-image: url(/cp3-html-master/images/bg-footer.jpg);
+    background-image: url(/images/bg-footer.jpg);
     color: white;
     background-size: cover;
     padding: auto;
